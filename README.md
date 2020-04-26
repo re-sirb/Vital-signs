@@ -59,7 +59,7 @@ device.halt_client()
 ```
 
 
-### Example code for plotting data
+### Plotting data
 
 In the directory __plotting_example__ you con find a simple tool for plottig vital sign data for testing, using matplotlib and numpy. 
 
