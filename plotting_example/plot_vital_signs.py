@@ -3,6 +3,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 from datetime import datetime
 from time import sleep
 from  ipv_data_source import ipv_data_source as device
@@ -16,6 +17,12 @@ class plot_vital_signs:
 		plt.yticks(np.arange(0, 201, step=20))
 		plt.xticks(np.arange(0, duration+1, step=5))
 		plt.grid()
+		
+		
+		green_patch = mpatches.Patch(color='#3ddc01', label='Heart rate')
+		blue_patch = mpatches.Patch(color='#006eca', label='Oxygen saturation')
+		red_patch = mpatches.Patch(color='red', label='Blood pressure')
+		plt.legend(handles=[green_patch, blue_patch, red_patch])
 		
 		self.last_pl=0
 		self.last_sa=0
