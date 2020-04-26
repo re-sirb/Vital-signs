@@ -4,7 +4,8 @@ This project is an independent approach to acquire patient data from Philips pat
 
 
 ### Limitations
-This project was developed and tested only using a MP70-type patient monitor. The communication protocol was reverse engineered using mainly packet sniffing and to some extent the (in my opinion) poorly written documentation of the manufacturer, that can be found on the internet. So there is a chance it might not work with certain patient monitors or firmware versions.
+This project was developed and tested only using a MP70-type patient monitor. The communication protocol was reverse engineered using mainly packet sniffing and to some extent the (in my opinion) poorly written documentation of the manufacturer, that can be found on the internet. Not all data is parsed completely (as it should be done) and to some extent the communication is purely based on empiric packet sniffing. So there is a chance it might not work with certain patient monitors or firmware versions.
+All in all, the code is still very raw and still contains many debugging functions that have only been commented out. If anyone wants to take the time to improve it, you are very welcome.
 There are two flags in the init method that can be set to __True__ to make the module more verbose and to help narrow down problems.
 
 Options for debugging:
