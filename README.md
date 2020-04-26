@@ -2,6 +2,8 @@
 
 This project is an independent approach to acquire patient data from Philips patient monitors via network interface. It has no association with the Philips corporation.
 
+An attempt was made to Python Standard Library modules as much as possible.
+
 
 ### Limitations
 This project was developed and tested only using a MP70-type patient monitor. The communication protocol was reverse engineered using mainly packet sniffing and to some extent the (in my opinion) poorly written documentation of the manufacturer, that can be found on the internet. Not all data is parsed completely (as it should be done) and to some extent the communication is purely based on empiric packet sniffing. So there is a chance it might not work with certain patient monitors or firmware versions.
