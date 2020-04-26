@@ -67,7 +67,7 @@ import time
 # Insert the correct IP of the patient monitor
 device = piv_data_source("127.0.0.1")
 
-# Start client and wachdog
+# Start client and watchdog
 device.start_client()
 device.start_watchdog()
 
