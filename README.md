@@ -16,6 +16,9 @@ Options for debugging:
 * debug_error
 
 
+Also refer to [somno/einstein](https://github.com/somno/einstein) here on github for more useful information on communication with Philips patient monitors.
+
+
 ### Important methodes of piv_data_source.py
 
 #### piv_data_source.**init**(IP)
