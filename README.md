@@ -2,7 +2,7 @@
 
 This project is an independent approach to acquire patient data from Philips patient monitors via network interface. It has no association with the Philips corporation.
 
-An attempt was made to Python Standard Library modules as much as possible.
+An attempt was made to use Python Standard Library modules as much as possible.
 
 
 ### Limitations
