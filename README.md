@@ -3,10 +3,20 @@
 This project is an independent approach to acquire patient data from Philips patient monitors via network interface. It has no association with the Philips corporation.
 
 
+### Limitations
+This project was developed and tested only using a MP70-type patient monitor. The communication protocol was reverse engineered using mainly packet sniffing and to some extent the (in my opinion) poorly written documentation of the manufacturer, that can be found on the internet. So there is a chance it might not work with certain patient monitors or firmware versions.
+There are two options in the init method that can be set to __True__ to make the module more verbose and to help narrow down problems.
+
+Options for debugging:
+
+..*debug_info
+..*debug_error
+
+
 ### Important methodes of piv_data_source.py
 
 #### piv_data_source.**init**(IP)
-When creating a new insctance of **piv_data_source** the correct IP of the patient monitor is required as parameter.
+When creating a new insctance of piv_data_source the correct IP of the patient monitor is required as parameter.
 
 #### piv_data_source.**start_client**()
 Starts the UDP-client thread and begins to acquire data from the monitor.
