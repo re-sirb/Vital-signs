@@ -9,8 +9,8 @@ There are two options in the init method that can be set to __True__ to make the
 
 Options for debugging:
 
-..* debug_info
-..* debug_error
+* debug_info
+* debug_error
 
 
 ### Important methodes of piv_data_source.py
