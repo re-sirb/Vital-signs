@@ -5,6 +5,7 @@ This project is an independent approach to acquire patient data from Philips pat
 
 An attempt was made to use Python Standard Library modules as much as possible.
 
+**This application is not intended for diagnostic or therapeutic use.**
 
 
 ### Limitations
