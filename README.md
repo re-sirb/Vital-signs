@@ -32,6 +32,8 @@ Returns a boolean whether the connection is working properly.
 
 ### Using the Module PIV_data_source.py
 
+A simple example how to use the __piv_data_source__ module. It starts a connection, reades some data and terminates the connection.
+
 ```python
 from  piv_data_source import piv_data_source
 
@@ -45,8 +47,8 @@ device = piv_data_source("127.0.0.1")
 device.start_client()
 device.start_watchdog()
 
-# delay 10 seconds to give the monitor time to respond
-time.sleep(10)
+# delay 15 seconds to give the monitor time to respond
+time.sleep(15)
 
 # read patient information and vital signs
 print(device.get_patient_data())
@@ -59,4 +61,5 @@ device.halt_client()
 
 ### Example code for plotting data
 
+In the directory __plotting_example__ you con find a simple tool for plottig vital sign data for testing, using matplotlib and numpy. 
 
