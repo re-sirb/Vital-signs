@@ -4,7 +4,7 @@ This project is an independent approach to acquire patient data from Philips pat
 
 ## 1. Important methodes of piv_data_source.py
 
-### class piv_data_source.**'__init__'**(IP)
+### class piv_data_source.**init**(IP)
 When creating a new insctance of **piv_data_source** the correct IP of the patient monitor is required as parameter.
 
 ### class piv_data_source.**start_client**()
