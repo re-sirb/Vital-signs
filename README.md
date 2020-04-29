@@ -65,7 +65,7 @@ from  piv_data_source import piv_data_source
 # time module is just used to create some delay to give the monitor time to respond
 import time 
 
-# Insert the correct IP of the patient monitor
+# Insert the correct IP of the patient monitor here!
 device = piv_data_source("127.0.0.1")
 
 # Start client
