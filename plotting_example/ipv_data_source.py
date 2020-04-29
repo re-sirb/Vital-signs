@@ -80,7 +80,8 @@ class ipv_data_source:
 		#process = multiprocessing.Process(target=do_events, args=(self,)) 
 		#self.process = multiprocessing.Process(target=self.do_events) 
 		self.process = threading.Thread(target=self.do_events) 
-		self.process.start() 
+		self.process.start()
+		self.start_watchdog()
 	
 	def start_watchdog(self):
 		self.run_con_watchdog=True
