@@ -34,7 +34,7 @@ When creating a new insctance of piv_data_source the correct IP of the patient m
 Starts the UDP-client thread and begins to acquire data from the monitor.
 
 #### piv_data_source.**start_watchdog**()
-Starts the additional watchdog, that restarts the connection when exceptions occur. If you dont use the watchdog you will have to monitor the current connection yourself. This is necessary because the monitor sometimes terminates the connection spontaneously or does not process requests correctly.
+Starts the additional watchdog, that restarts the connection when exceptions occur. The connection-watchdog is automatically startet when starting the UDP-client. If you don't use the watchdog you will have to monitor the current connection yourself. This is necessary because the monitor sometimes terminates the connection spontaneously or does not process requests correctly.
 
 #### piv_data_source.**halt_client**()
 Terminates the connection, the UDP-client and the start_watchdog. Should be called before the object is deleted to terminate the connection correctly.
@@ -68,9 +68,8 @@ import time
 # Insert the correct IP of the patient monitor
 device = piv_data_source("127.0.0.1")
 
-# Start client and watchdog
+# Start client
 device.start_client()
-device.start_watchdog()
 
 # delay 15 seconds to give the monitor time to respond
 time.sleep(15)
