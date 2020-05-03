@@ -54,7 +54,7 @@ Returns a boolean whether the connection is working properly.
 
 
 
-### Using the Module PIV_data_source.py
+### Using the Module piv_data_source.py
 
 
 A simple example how to use the __piv_data_source__ module. It starts a connection, reades some data and terminates the connection.
