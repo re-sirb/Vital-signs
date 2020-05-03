@@ -2,7 +2,7 @@
 
 
 This project is an independent approach to acquire patient data from Philips patient monitors via network interface. It has no association with the Philips corporation.  
-The python module published here emphasizes especially ease of use, giving researchers an easy way to interact with Philips patient monitors. 
+The Python-module published here emphasizes especially ease of use, giving researchers an easy way to interact with Philips patient monitors. 
 
 An attempt was made to use Python Standard Library modules as much as possible.
 
