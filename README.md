@@ -90,7 +90,7 @@ device.halt_client()
 
 In the directory __plotting_example__ you can find a simple tool for plottig vital sign data for testing, using matplotlib.
 
-![](Figure_1.png)
+![](Figure_01.png)
 
 
 Have fun!
