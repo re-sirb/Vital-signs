@@ -71,7 +71,7 @@ device = piv_data_source("127.0.0.1")
 # Start client
 device.start_client()
 
-# delay 15 seconds to give the monitor time to respond
+# delay 15 seconds to give the monitor time to gather data
 time.sleep(15)
 
 # read patient information and vital signs
