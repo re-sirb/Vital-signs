@@ -1,7 +1,8 @@
 # Vital-signs
 
 
-This project is an independent approach to acquire patient data from Philips patient monitors via network interface. It has no association with the Philips corporation.
+This project is an independent approach to acquire patient data from Philips patient monitors via network interface. It has no association with the Philips corporation.  
+The python model published here emphasizes especially ease of use, giving researchers an easy way to interact with Philips patient monitors. 
 
 An attempt was made to use Python Standard Library modules as much as possible.
 
@@ -11,7 +12,7 @@ An attempt was made to use Python Standard Library modules as much as possible.
 ### Limitations
 
 
-This project was developed and tested only using a MP70-type patient monitor. The communication protocol was reverse engineered using mainly packet sniffing and to some extent the (in my opinion) poorly written documentation of the manufacturer, that can be found on the internet. Not all data is parsed completely (as it should be done) and to some extent the communication is purely based on empiric packet sniffing. So there is a chance it might not work with certain patient monitors or firmware versions.
+In theory this module should work with X2, MP Series, MX Series, FM Series of Philips patient monitors. Though this project was developed and tested only using a MP70-type patient monitor. The communication protocol was reverse engineered using mainly packet sniffing and to some extent the (in my opinion) poorly written documentation of the manufacturer, that can be found on the internet. Not all data is parsed completely (as it should be done) and to some extent the communication is purely based on empiric packet sniffing. So there is a chance it might not work with certain patient monitors or firmware versions.
 All in all, the code is still very raw and still contains many debugging functions that have only been commented out. If anyone wants to take the time to improve it, you are very welcome.
 There are two flags in the init method that can be set to __True__ to make the module more verbose and to help narrow down problems.
 
