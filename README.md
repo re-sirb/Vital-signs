@@ -44,10 +44,10 @@ Terminates the connection, the UDP-client and the start_watchdog. Should be call
 Returns a list with patient vital signs.
 
 #### piv_data_source.**get_patient_data**()
-Returns a list with patient information admission.
+Returns a list with patient admission information.
 
 #### piv_data_source.**refresh_patient_data**()
-Reads patient info admission information again to check for changes (usually it is only read once when a new connection is started).
+Reads patient admission information again to check for changes (usually it is only read once when a new connection is started).
 
 #### piv_data_source.**check_client_is_working_correctly**()
 Returns a boolean whether the connection is working properly.
