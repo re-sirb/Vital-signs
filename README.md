@@ -6,7 +6,7 @@ The Python-module published here emphasizes especially ease of use, giving resea
 
 An attempt was made to use Python Standard Library modules as much as possible.
 
-**This application is not intended for diagnostic or therapeutic use.**
+**This application is for research use only and may not be used for diagnostic or therapeutic applications.**
 
 
 ### Limitations
